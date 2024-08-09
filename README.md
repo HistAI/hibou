@@ -3,9 +3,13 @@
 
 [https://arxiv.org/abs/2406.05074](https://arxiv.org/abs/2406.05074)
 
+## Updates
+
+**08.09.2024**: We are excited to announce the release of Hibou-L under the Apache 2.0 license. You can find Hibou-L on Hugging Face 🤗 [here](https://huggingface.co/histai/hibou-L).
+
 ## Introduction
 
-This repository contains the code to run the Hibou-B model locally. For inquiries about accessing Hibou-L, please contact us at [models@hist.ai](mailto:models@hist.ai).
+This repository contains the code to run the Hibou-B model locally. For inquiries about accessing Hibou-L on CellDX, please contact us at [models@hist.ai](mailto:models@hist.ai).
 
 ## Getting Started
 
