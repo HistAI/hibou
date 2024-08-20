@@ -5,7 +5,10 @@
 
 ## Updates
 
-**08.09.2024**: We are excited to announce the release of Hibou-L under the Apache 2.0 license. You can find Hibou-L on Hugging Face 🤗 [here](https://huggingface.co/histai/hibou-L).
+* **08.19.2024**: We release a CellViT-Hibou model, which is a hybrid model combining the CellViT and Hibou architectures. This model comes under CC BY-NC-SA 4.0 license. Check the `segmentation_example.ipynb` notebook for an example of how to use the model.
+CellViT-Hibou is a model trained on PanNuke dataset for panoptic cell segmentation. It can segment and classify cells and tissues. For more information visit the original CellViT repository [here](https://github.com/TIO-IKIM/CellViT). Huge thanks to the authors of CellViT for their amazing work!
+
+* **08.09.2024**: We are excited to announce the release of Hibou-L under the Apache 2.0 license. You can find Hibou-L on Hugging Face 🤗 [here](https://huggingface.co/histai/hibou-L).
 
 ## Introduction
 
