@@ -20,6 +20,8 @@ def build_model(
     qkv_bias=True,
     proj_bias=True,
     ffn_bias=True,
+    dropout_rate=0.0,
+    attention_dropout_rate=0.0,
     num_register_tokens=4,
     interpolate_offset=0,
     interpolate_antialias=True,
@@ -36,6 +38,8 @@ def build_model(
         num_register_tokens=num_register_tokens,
         interpolate_offset=interpolate_offset,
         interpolate_antialias=interpolate_antialias,
+        dropout_rate=dropout_rate,
+        attention_dropout_rate=attention_dropout_rate,
     )
     model = vision_transformer.__dict__[arch](**vit_kwargs)
     if weights_path is not None:

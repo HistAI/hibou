@@ -66,6 +66,8 @@ class DinoVisionTransformer(nn.Module):
         proj_bias=True,
         drop_path_rate=0.0,
         drop_path_uniform=False,
+        dropout_rate=0.0,
+        attention_dropout_rate=0.0,
         init_values=None,  # for layerscale: None or 0 => no layerscale
         embed_layer=PatchEmbed,
         act_layer=nn.GELU,
@@ -167,6 +169,8 @@ class DinoVisionTransformer(nn.Module):
                 act_layer=act_layer,
                 ffn_layer=ffn_layer,
                 init_values=init_values,
+                drop=dropout_rate,
+                attn_drop=attention_dropout_rate,
             )
             for i in range(depth)
         ]
