@@ -30,10 +30,10 @@ model = AutoModel.from_pretrained("histai/hibou-b", trust_remote_code=True)
 OR
 
 ```python
-from transformers import HibouImageProcessor, HibouModel
+from transformers import AutoImageProcessor, AutoModel
 
-processor = HibouImageProcessor.from_pretrained("histai/hibou-L", trust_remote_code=True)
-model = HibouModel.from_pretrained("histai/hibou-L", trust_remote_code=True)
+processor = AutoImageProcessor.from_pretrained("histai/hibou-L", trust_remote_code=True)
+model = AutoModel.from_pretrained("histai/hibou-L", trust_remote_code=True)
 ```
 
 We use a customized implementation of the DINOv2 architecture from the transformers library to add support for registers, which requires the `trust_remote_code=True` flag.
